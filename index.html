@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum DApp with Swap Feature</title>
+</head>
+<body>
+    <h1>Ethereum DApp with Token Swap</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <button id="switchNetworkButton">Switch Network</button>
+    <div id="chainInfo"></div>
+    <br>
+
+    <h2>Token Swap</h2>
+    <label for="tokenIn">Token to Swap:</label>
+    <input type="text" id="tokenIn" placeholder="Token Address (e.g., DAI)">
+    <label for="tokenOut">Token to Receive:</label>
+    <input type="text" id="tokenOut" placeholder="Token Address (e.g., USDT)">
+    <label for="amountIn">Amount to Swap:</label>
+    <input type="number" id="amountIn" placeholder="Amount">
+    <button id="swapButton">Swap Tokens</button>
+
+    <div id="contractInteraction">
+        <h2>Interact with Contract</h2>
+        <button id="readContractButton">Read Contract</button>
+        <button id="writeContractButton">Write Contract</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.0/dist/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
