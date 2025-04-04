@@ -21,6 +21,7 @@ A simple Ethereum decentralized application (DApp) that connects to MetaMask, al
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/simple-dapp.git
+git clone https://github.com/tosinchukwu/simple-dapp.git
+
 cd simple-dapp
 
