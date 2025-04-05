@@ -28,5 +28,6 @@ jobs:
           registry-url: https://registry.npmjs.org/  # Use the official npm registry URL
       - run: npm ci
       - run: npm publish  # Publish to npmjs
+      - run: npm test # Test the workflow
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Use the npm token stored in secrets
