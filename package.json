@@ -1,6 +1,6 @@
 {
   "name": "simple-dapp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple Ethereum DApp with token swap",
   "main": "index.html",
   "scripts": {
