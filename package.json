@@ -19,6 +19,6 @@
     "webpack-cli": "^4.0.0",
     "webpack-dev-server": "^4.0.0",
     "html-webpack-plugin": "^5.3.2",
-    "jest": "^29.0.0"  // Ensure Jest is installed as a devDependency
+    "jest": "^29.0.0"
   }
 }
